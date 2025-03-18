@@ -53,7 +53,7 @@ if st.button("Search"):
 
             # 🤖 AI Recommendations
             st.subheader("🤖 AI Recommendations")
-            prompt = f"Based on the book '{results[0][0]}', suggest similar books for a student."
+            prompt = f"Based on the theme '{query}', suggest similar books for a student. Give me the titles and a brief decription of each book."
             ai_response = get_gemini_recommendations(prompt)
             st.write(ai_response)
 
