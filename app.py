@@ -5,7 +5,7 @@ import os
 from search import LibrarySearch
 
 # ✅ Hardcoded API key (DO NOT expose in production)
-GEMINI_API_KEY = "AIzaSyC8tVLAjnUID6DWshs1dvM9Sc3uuqs4NLg"
+GEMINI_API_KEY = "xxxxxx"
 
 # Debugging API key
 print(f"DEBUG: GEMINI_API_KEY = {GEMINI_API_KEY}")
@@ -61,3 +61,4 @@ if st.button("Search"):
             st.warning("🚫 No matching books found.")
     else:
         st.error("❌ Please enter a search query.")
+
